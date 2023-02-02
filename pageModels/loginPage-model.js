@@ -16,13 +16,8 @@ class Page
         this.inputEmail = Selector('[formcontrolname="email"]');
         this.inputLocation = Selector('.location');
         this.liLocation = Selector('.ng-option-label').withText('South Africa, Bellville, Bellville Park');
-    }
-
-    async navigate()
-    {
-        await t
-        .click(this.elementsLink)
-        .click(this.checkBoxLink);
+        this.inputPassword = Selector('[formcontrolname="password"]');
+        this.buttonShowPass = Selector('#button_addon2');
     }
 }
 

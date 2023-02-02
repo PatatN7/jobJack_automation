@@ -3,6 +3,7 @@
     "testcafe": "^2.3.0"
   },
   "scripts": {
-    "textBoxes": "testcafe chrome tests/jobSeeker.js"
+    "registerAccount": "testcafe chrome testScripts/registerAccount.js",
+    "modifyAccount": "testcafe chrome testScripts/registerAccount.js"
   }
 }
