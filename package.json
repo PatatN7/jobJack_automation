@@ -3,6 +3,6 @@
     "testcafe": "^2.2.0"
   },
   "scripts": {
-    "textBoxes": "testcafe chrome tests/textBoxes.js"
+    "textBoxes": "testcafe chrome tests/jobSeeker.js"
   }
 }
