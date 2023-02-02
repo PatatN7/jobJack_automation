@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "testcafe": "^2.2.0"
+    "testcafe": "^2.3.0"
   },
   "scripts": {
     "textBoxes": "testcafe chrome tests/jobSeeker.js"
