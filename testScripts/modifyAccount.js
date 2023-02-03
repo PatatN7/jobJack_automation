@@ -9,7 +9,7 @@ test('Modify Job Seeker account', async t =>
     //Login With Credentials
     await t
         .typeText(page.inputEmail, 'jmeintjesn7@gmail.com')
-        .typeText(page.inputPassword, 'passwo')
+        .typeText(page.inputPassword, 'Register')
         .click(page.buttonLogIn);
 
     //Navigate to My Profile
@@ -30,7 +30,7 @@ test('Modify Job Seeker account', async t =>
     await t.click(page.buttonBasicInfo);
 
     //Change Name to JOB
-    await t.typeText(page.inputFirstName, 'JohannesTest', { replace : true })
+    await t.typeText(page.inputFirstName, 'JOB', { replace : true })
 
     //Save Changes
     await t
